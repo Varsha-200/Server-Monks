@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Job Finder</h1>
+    <p class="lead">A platform to find and post jobs easily.</p>
+    <hr class="my-4">
+    <p>Get started by registering or logging in.</p>
+    <a class="btn btn-primary btn-lg" href="/register" role="button">Register</a>
+    <a class="btn btn-secondary btn-lg" href="/login" role="button">Login</a>
+</div>
+{% endblock %}
